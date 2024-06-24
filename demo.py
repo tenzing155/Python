@@ -1,4 +1,4 @@
-a = "ram"
-b = "sita"
+a = 12
+b = 15
 c = a + b
 print(c)
