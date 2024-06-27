@@ -92,3 +92,16 @@ print(not(x>2 and x<6))
 # 2.**
 # 3.* /
 # 4. + - 
+
+#is, isnot, in
+x = ['ram','sita']
+y = ['ram', 'sita']
+x = z
+print(x is z)
+print(x is y)
+print(x is not z)
+
+fruits = ['apple','banana']
+vegetables = ['cauliflower', 'cabbage']
+print('apple' in fruits) 
+print(fruits is not vegetables)
