@@ -58,6 +58,8 @@
 
 
 # data=['ram','sita','ram','anil']
+# data.append('gita')
+# print(data)
 # data.sort()
 # print(data)
 # print(data.count('ram'))
@@ -79,7 +81,7 @@
 #     [67,[[900]],78]
 # ]
 
-# print(data[0][0])
+# print(data[0][1][0][0])
 # print(data[0][1][1])
 
 
@@ -91,6 +93,7 @@
 # print(course.isupper())
 # print(course.islower())
 # print(course.replace("we are","I am"))
+#print(course.split())
 
 
 #upper, title, find, index, isupper, islower, replace
