@@ -140,16 +140,16 @@
 # print(data['contact'])
 
 
-data={
-    'name':'hari',
-    'address':{
-        'country':['nepal','china','india']
-    },
-    'contact':{
-        'mobile':[9744654,988745],
-        'email':['hari@gmail.com']
-    }
-}
+# data={
+#     'name':'hari',
+#     'address':{
+#         'country':['nepal','china','india']
+#     },
+#     'contact':{
+#         'mobile':[9744654,988745],
+#         'email':['hari@gmail.com']
+#     }
+# }
 
 
 # my name is hari i live in china contact me 9745455

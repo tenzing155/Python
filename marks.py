@@ -14,3 +14,4 @@ elif percentage >= 35 and percentage >=45:
     print("Your grade is C")
 else:
     print("Fail")
+
