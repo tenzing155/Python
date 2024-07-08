@@ -1,3 +1,5 @@
 # Python 4pm
 * Python tutorial
-- Python read me text
+1. If
+2. Introduction
+3. python demo
