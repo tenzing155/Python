@@ -5,15 +5,15 @@
 # else:
 #     print("y is smaller")
 
-# x = 5
-# y = 6
-# z = 10
-# if x > y and x > z:
-#     print("x is greater.")
-# elif y > x and y > z:
-#     print("y is greater.")
+# a = 10
+# b = 20
+# c = 30
+# if a > b and a > c:
+#     print("a is greater.")
+# elif b > a and b > c:
+#     print("b is greater.")
 # else:
-#     print("z is greater.")
+#     print("c is greater.")
 
 # a = 5
 # b = 6
