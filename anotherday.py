@@ -6,7 +6,7 @@
 # password = input("Enter your password: ")
 # if data[0]['username']== username and data[0]['password'] == password:
 #     print("You are logged in.")
-# elif data[1]['username'] == username and data[1]['username'] == password:
+# elif data[1]['username'] == username and data[1]['password'] == password:
 #     print('You are logged in')
 # else:
 #     print("Wrong email and password")

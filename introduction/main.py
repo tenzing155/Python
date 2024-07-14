@@ -2,7 +2,6 @@
 # print(34565)
 
 # variable
-
 # x=10
 # y=50
 # print(x+y)
@@ -93,10 +92,10 @@
 # print(course.isupper())
 # print(course.islower())
 # print(course.replace("we are","I am"))
-#print(course.split())
+# print(course.split())
 
 
-#upper, title, find, index, isupper, islower, replace
+# upper, title, find, index, isupper, islower, replace
 
 
 
@@ -160,29 +159,29 @@
 # print(f"contact me {data['contact']['email'][0]}")
 
 
-#methods
-#clearing method
+# methods
+# clearing method
 # data.clear()
 # print(data)
 
-#changing value
+# changing value
 # data['address']['country'][0] = "bhutan"
 # print(data)
 
-#printing keys
+# printing keys
 # keys = data.keys()
 # print(keys)
 
-#printing values
+# printing values
 # values = data.values()
 # print(values)
 
-#deleting key and values of dictiob
+# deleting key and values of dictionary
 # data.pop('contact')
 # print(data)
 
-#updating values from key and also adding new key and value to dictionary
-# data.update({'name': 'ram'})
+# updating values from key and also adding new key and value to dictionary
+# # data.update({'name': 'ram'})
 # print(data)
 
 
