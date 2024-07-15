@@ -195,13 +195,13 @@
 #     print("Incorrect Pin.")
 
 
-# WAP to create a bus ticketing system.
-#Kathmandu - Pokhara - Rs1200
-#Dharan - Chitwan - Rs 2600
-#Ithari - Birgunj - Rs.2500
-#Tourist - extra -120
-#Single - same price
-#couple - 2200, 2300, 2200
+#WAP to create a bus ticketing system.
+# Kathmandu - Pokhara - Rs1200
+# Dharan - Chitwan - Rs 2600
+# Ithari - Birgunj - Rs.2500
+# Tourist - extra -120
+# Single - same price
+# couple - 2200, 2300, 2200
 
 # print("============ BUS TICKETING SYSTEM =============")
 # print("- Destination -")
@@ -209,6 +209,7 @@
 # print("2. Dharan - Chitwan : Rs.2600")
 # print("3. Itahari - Birgunj : Rs.2500")
 # print("Note : If you are a foreigner extra 120 charges is applied.")
+
 # destination = int(input("Enter your destination: "))
 # foreigner = input("Are you a foreigner ? yes or no : ")
 # print("Are you booking for a single or couple ride ?")
@@ -293,3 +294,67 @@
 #         print("Please enter correct parameter.")
 # else:
 #     print("Please enter correct option.")
+
+
+#Food order system
+# 18 less - 10% dis
+#stop - execute
+#all total - stop
+
+# print("===============FOOD ORDERING SYSTEM===============")
+# print("Menu: ")
+# print("1. Thakali food - Rs.450")
+# print("2. Burger - Rs.240")
+# print("3. Pizza - Rs.230")
+# print("4. Momo - Rs.110")
+# print("5. Chowmein - Rs.100")
+# print("6. Thukpa - Rs.250")
+# print("7. Sekuwa - Rs.80")
+# print("8. Keema noodles - Rs.265")
+
+# while True:
+#     menu = input("Please choose your menu: ")
+#     quantity = int(input("Enter the quantity: "))
+#     print("Type 'stop' to execute and see the total.")
+#     total_bill = 0
+#     item_price = 0
+#     food = 0    
+#     if menu == 1:
+#         item_price += 450
+#         food += "Thakali food"
+#     elif menu == 2:
+#         item_price += 240
+#         food += "Burger"
+#     elif menu == 3:
+#         item_price += 230
+#         food += "Pizza"
+#     elif menu == 4:
+#         item_price += 110
+#         food += "Momo"
+#     elif menu == 5:
+#         item_price = 100
+#         food += "Chowmein"
+#     elif menu == 6:
+#         item_price += 250
+#         food += "Thukpa"
+#     elif menu == 7:
+#         item_price += 80
+#         food += "Sekuwa"
+#     elif menu == 8:
+#         item_price += 265
+#         food += "Keema noodles"
+#     elif menu.lower() == "stop":
+#         break
+#     else:
+#         print("Enter correct menu parameter.")
+
+#     total_item = item_price * quantity
+#     total_bill += total_item
+
+#     print("================Bill================")
+#     print(f"Food: {food}")
+#     print(f"Quantity: {quantity}")
+#     print(f"Total for this item: Rs.{total_item}")
+
+#     print(f"Your total bill is: Rs.{total_bill}")
+#     print("Thank you! Please visit us again!")
