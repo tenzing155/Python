@@ -1,6 +1,7 @@
-#Number Guessing Game Objectives:
+#Number Guessing Game:
 
-# Include an ASCII art logo.
+#Overview of the game.
+import random
 logo = """
  ___                      ___  _          _ _              _             
 /  _>  _ _  ___  ___ ___ |_ _|| |_  ___  | \ | _ _ ._ _ _ | |_  ___  _ _ 
@@ -11,44 +12,36 @@ logo = """
 print(logo)
 print("Welcome to the Number Guessing Game! ")
 print("I'm thinking of a number between 1 and 100")
-import random
 
+#generating random number between 1 and 100.
 num = random.randint(1, 100)
 print("Pssst, The correct answer is ", num)
 
-# Allow the player to submit a guess for a number between 1 and 100.
+#choosing between easy and hard difficulty.
 option = input("Choose difficulty. Type 'easy' or 'hard': ")
 if option == 'easy':
-    i = 0
-    while i < 10:
-        print("You have 10 attempts remaining to guess the number.")
-        print("Make a guess: ")
-        guess = int(input())
-        if guess < num:
-            print("Too low.")
-            print("Guess again.")
-        elif guess > num:
-            print("Too high.")
-            print("Guess again.")
-        else:
-            print("Correct answer!", num)
-            exit()
-    i += 1
+    attempt = 10
 elif option == 'hard':
-    i = 0
-    while i < 5:
-        print("You have 5 attempts remaining to guess the number.")
-        print("Make a guess: ")
-        guess = int(input())
-        if guess < num:
-            print("Too low.")
-            print("Guess again.")
-        elif guess > num:
-            print("Too high.")
-            print("Guess again.")
-        else:
-            print("Correct answer!", num)
-            exit()
-    i += 1
+    attempt = 5
 else:
-    print("Please choose correct option.")
+    print("Please enter correct option.")
+
+#guessing number and implementing attempt.
+while attempt > 0:
+    guess = int(input("Enter your guess number:"))
+    if guess > num:
+        print("Too high.")
+        print(f"You have {attempt} attempts remaining.")
+    elif guess < num:
+        print("Too low.")
+        print(f"You have {attempt} attempts remaining.")
+    else:
+        print(f"You have guessed it correctly! {num}")
+        break
+    attempt -= 1   
+    
+    if attempt > 0:
+        print("Guess again.")
+    else:
+        print("You've run out of attempts. You lose.")
+    
