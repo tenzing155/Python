@@ -48,3 +48,4 @@ if input == 2 and computer == 0:
   print("Computer wins.")
 if input == 2 and computer == 1:
   print("You win.")
+

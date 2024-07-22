@@ -312,49 +312,48 @@
 # print("7. Sekuwa - Rs.80")
 # print("8. Keema noodles - Rs.265")
 
+
 # while True:
-#     menu = input("Please choose your menu: ")
-#     quantity = int(input("Enter the quantity: "))
-#     print("Type 'stop' to execute and see the total.")
-#     total_bill = 0
-#     item_price = 0
-#     food = 0    
-#     if menu == 1:
-#         item_price += 450
-#         food += "Thakali food"
-#     elif menu == 2:
-#         item_price += 240
-#         food += "Burger"
-#     elif menu == 3:
-#         item_price += 230
-#         food += "Pizza"
-#     elif menu == 4:
-#         item_price += 110
-#         food += "Momo"
-#     elif menu == 5:
-#         item_price = 100
-#         food += "Chowmein"
-#     elif menu == 6:
-#         item_price += 250
-#         food += "Thukpa"
-#     elif menu == 7:
-#         item_price += 80
-#         food += "Sekuwa"
-#     elif menu == 8:
-#         item_price += 265
-#         food += "Keema noodles"
-#     elif menu.lower() == "stop":
+#     menu = (input("Please choose your menu: or 'stop' to stop the program. "))
+#     if menu == 'stop':
+#         print("Program stopped.")
 #         break
 #     else:
-#         print("Enter correct menu parameter.")
+#         quantity = int(input("Enter the quantity: "))
+#         total_bill = 0
+#         item_price = 0
+#         food = 0    
+#         if menu == '1':
+#             item_price += 450
+#             food = "Thakali food"
+#         elif menu == '2':
+#             item_price += 240
+#             food = "Burger"
+#         elif menu == '3':
+#             item_price += 230
+#             food = "Pizza"
+#         elif menu == '4':
+#             item_price += 110
+#             food = "Momo"
+#         elif menu == '5':
+#             item_price = 100
+#             food = "Chowmein"
+#         elif menu == '6':
+#             item_price += 250
+#             food = "Thukpa"
+#         elif menu == '7':
+#             item_price += 80
+#             food = "Sekuwa"
+#         elif menu == '8':
+#             item_price += 265
+#             food = "Keema noodles"
+#         else:
+#             print("Enter correct menu parameter.")
 
-#     total_item = item_price * quantity
-#     total_bill += total_item
+#         total_bill = item_price * quantity
 
-#     print("================Bill================")
-#     print(f"Food: {food}")
-#     print(f"Quantity: {quantity}")
-#     print(f"Total for this item: Rs.{total_item}")
-
-#     print(f"Your total bill is: Rs.{total_bill}")
-#     print("Thank you! Please visit us again!")
+#         print("================Bill================")
+#         print(f"Food: {food}")
+#         print(f"Quantity: {quantity}")
+#         print(f"Your total bill is: Rs.{total_bill}")
+#         print("Thank you! Please visit us again!")
