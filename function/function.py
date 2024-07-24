@@ -156,8 +156,94 @@
 # print(add(2,4,3))
 
 # def mul(*args):
-#     mul= 1
+#     mul = 1
 #     for i in args:
 #         mul *= i
 #     return mul
 # print(mul(10, 2, 3))
+
+# def users(*names):
+#     for i in names:
+#         print(i)
+#     return i
+# users('ram','sita','hari')
+
+
+# def users(**names):
+#     print(names)
+# users(names = "hari",  age = 17 , address = "kathmandu")
+
+# books = [
+#     {'title': 'Python', 'price': 100},
+#     {'title': 'Java', 'price': 200},
+#     {'title': 'C', 'price': 300},
+#     {'title': 'C++', 'price': 400},
+#     {'title': 'Ruby', 'price': 500},
+#     {'title': 'PHP', 'price': 600},
+#     {'title': 'JavaScript', 'price': 700},
+#     {'title': 'C#', 'price': 800},
+#     {'title': 'GO', 'price': 900},
+#     {'title': 'Swift', 'price': 1000},
+# ]
+
+# def pricegreater(books):
+#     result = []
+#     for book in books:
+#         if book['price'] > 500:
+#             result.append(book)
+#     return result
+
+# def main():
+#     print("Books with price greater than 500:")
+#     books_greater_than_500 = pricegreater(books)
+#     for book in books_greater_than_500:
+#         print(f"Book name: {book['title']}, Book price: {book['price']} ")
+
+# main()
+
+# def add(x,y):
+#     return x+y
+
+# def total(a,b,callback):
+#     print(callback(a,b))
+
+# total(2,3,add)
+
+# def sub(x,y):
+#     return x-y
+
+# def total(a,b,callback):
+#     print(callback(a,b))
+
+# total(10,3,sub)
+
+
+# data = [10,20,30,40,50]
+# def add_num(n):
+#     return n + 5
+
+# data = list(map(add_num,data))
+# print(data)
+
+# users = ['Ram','sita','hari','sophia','gp']
+# def length_greater():
+#     for user in users:
+#         if len(user) > 4:
+#             print(user)
+
+# length_greater()
+
+# def add(x,y):
+#     print(x + y)
+# add(5,3)
+
+# #lambda
+# add = lambda x, y: x + y
+# print(add(5, 3))  
+
+# def sub(x,y):
+#     print(x - y)
+# sub(5,3)
+
+# sub = lambda x,y : x - y
+# print(sub(5,3))
