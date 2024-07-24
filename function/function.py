@@ -217,13 +217,31 @@
 
 # total(10,3,sub)
 
-
+#map function each iterable item function used 
 # data = [10,20,30,40,50]
 # def add_num(n):
 #     return n + 5
 
 # data = list(map(add_num,data))
 # print(data)
+
+# numbers = [1, 2, 3, 4, 5]
+# squared = map(lambda x: x**2, numbers)
+# print(list(squared))  # Output: [1, 4, 9, 16, 25]
+
+# data = [2,4,6,8,10]
+# mul = tuple(map(lambda x: x * 2, data))
+# print(mul)
+
+# data = [1,2,3,4,5]
+# sub = list(map(lambda n : n - 1,data))
+# print(sub)
+
+# data = [1,2,3,4,5]
+# def add(n):
+#     return n + 1
+# add = list(map(add, data))
+# print(add)
 
 # users = ['Ram','sita','hari','sophia','gp']
 # def length_greater():
@@ -247,3 +265,13 @@
 
 # sub = lambda x,y : x - y
 # print(sub(5,3))
+
+#factorial
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+
+# print(factorial(5))  # Output: 120
+
