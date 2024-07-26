@@ -22,6 +22,36 @@
 # x = datetime.datetime.strptime(date_string, "%Y-%m-%d")
 # print(x)
 
+# from datetime import datetime
+
+# current_date = datetime.now()
+# specific_date = datetime(2023, 12, 24)
+
+# difference = current_date - specific_date
+
+# print("Current date:", current_date)
+# print("Specific date:", specific_date)
+# print("Difference in days:", difference.days)
+
+# from datetime import datetime, timedelta
+
+# current_date = datetime.now()
+# days_to_subtract = 10
+
+# new_date = current_date - timedelta(days=days_to_subtract)
+# print("Current date:", current_date)
+# print("New date:", new_date)
+
+# from datetime import datetime, timedelta
+
+# current_date = datetime.now()
+# hours_to_subtract = 10
+
+# new_date = current_date - timedelta(hours=hours_to_subtract)
+
+# print("Current date and time:", current_date)
+# print("New date and time after subtracting 10 hours:", new_date)
+
 
 # import datetime
 
@@ -88,8 +118,5 @@
 #         print(f"{fruit['Fruits']}: Your product is old.")
 #     else:
 #         print(f"{fruit['Fruits']}: Your product is not valid.")
-
-
-
 
 
