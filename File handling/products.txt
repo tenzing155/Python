@@ -1,0 +1,15 @@
+Customer name: hari
+Product name: Banana
+Quantity: 5
+Total: 600
+
+Customer name: mina
+Product name: Litchi
+Quantity: 3
+Total: 420
+
+Customer name: shyam
+Product name: Apple
+Quantity: 1
+Total: 200
+

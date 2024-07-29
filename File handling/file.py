@@ -2,6 +2,19 @@
 # bin   txt
 # w r a
 
+#reading file
+# f = open("file name", "r")
+# text = f.read()
+# print(text)
+
+#writing file
+# f = open("filename", "w")
+# f.write("contents\n")
+# f.close()
+
+#alternative
+# with open("filename","something") as file:
+#     file.write("contents\n")
 
 
 
@@ -180,5 +193,115 @@
 #             print("Program continued.")
 
     
+
+import os
+
+if not os.path.exists("users.txt"):
+    handle = open("users.txt", "w")
+    handle.close()
+
+def register():
+    print("=============Register User==============")
+    username = input("Enter your username:").strip()
+    with open("users.txt", "r") as file:
+        handle = file.read()
+        if username in handle:
+            print("Username already exists.")
+            exit()
+    
+    password = input("Enter password: ").strip()
+    confirm_password = input("Confirm password: ").strip()
+    
+    if password != confirm_password:
+        print("Passwords do not match")
+        exit()
+    
+    with open("users.txt", "a") as file:
+        file.write(f"username:{username},password:{password}\n")
+        print("User registered successfully")
+
+def login():
+    print("================Login User=============")
+    username = input("Enter username: ").strip()
+    password = input("Enter password: ").strip()
+    with open("users.txt", "r") as file:
+        users = file.readlines()
+        is_login = False
+        for user in users:
+            user = user.strip().split(",")
+            uname = user[0].split(":")[1]
+            upass = user[1].split(":")[1]
+            if username == uname and password == upass:
+                is_login = True
+    
+        if is_login:
+            print("Login successful.")
+        else:
+            print("Invalid credentials.")
+
+register()
+login()
+
+
+#name quantity total 
+# with open("products.txt", "a") as file:
+#     while True:
+#         name = input("Enter your name: ")
+        
+#         if not name.isalpha():
+#             print("Only letters are allowed.")
+#             continue
+
+#         print("MENU:")
+#         print(" 1.Apple: Rs200\n 2.Banana: Rs120\n 3.Mango: Rs130\n 4.Strawberries: Rs150\n 5.Litchi: Rs140\n")
+#         apple_price = 0
+#         banana_price = 0
+#         mango_price = 0
+#         strawberries_price = 0
+#         litchi_price = 0
+#         product_name = ""
+#         quantity = 0
+
+#         option = int(input("Enter the option: "))
+
+#         if option == 1:
+#             quantity = int(input("Enter the quantity: "))
+#             apple_price = 200 * quantity
+#             product_name = "Apple"
+#         elif option == 2:
+#             quantity = int(input("Enter the quantity: "))
+#             banana_price = 120 * quantity
+#             product_name = "Banana"
+#         elif option == 3:
+#             quantity = int(input("Enter the quantity: "))
+#             mango_price = 130 * quantity
+#             product_name = "Mango"
+#         elif option == 4:
+#             quantity = int(input("Enter the quantity: "))
+#             strawberries_price = 150 * quantity
+#             product_name = "Strawberries"
+#         elif option == 5:
+#             quantity = int(input("Enter the quantity: "))
+#             litchi_price = 140 * quantity
+#             product_name = "Litchi"
+#         else:
+#             print("Invalid option")
+#             continue
+
+#         total = apple_price+banana_price+mango_price+strawberries_price+litchi_price
+#         print("Your records have been saved!")
+
+#         file.write(f"Customer name: {name}\n")
+#         file.write(f"Product name: {product_name}\n")
+#         file.write(f"Quantity: {quantity}\n")
+#         file.write(f"Total: Rs.{total}\n")
+#         file.write("\n")  
+
+#         continue_option = input("Do you want to continue? (yes/no): ").lower()
+#         if continue_option != 'yes':
+#             print("Program stopped.")
+#             break
+#         else:
+#             print("Program continued.")
 
 

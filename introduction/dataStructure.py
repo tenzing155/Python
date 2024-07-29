@@ -26,7 +26,7 @@
 # print(data[0][1][0][0])
 # print(data[0][1][1])
 
-#no duplicate data (set)
+#unordered,no duplicate, unindexed(set)
 # myset = {"apple", "banana", "orange"}
 # myset.add("mango")
 # myset.clear()
@@ -40,7 +40,7 @@
 # set3 = set1.union(set2)
 # print(set3)
 
-#unchangable data(tuple)
+#unchangabledata (tuple)
 # mytuple = ('ram' , 1 , "gita" , 'hari', 'ram')
 # print(mytuple[2:4])
 # print(mytuple.count('ram'))
