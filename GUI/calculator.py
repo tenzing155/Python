@@ -34,10 +34,10 @@ equation_text = ""
 equation_label = StringVar()
 
 label = Label(window, textvariable=equation_label, font=('consolas', 20), bg="white", highlightbackground="black", highlightcolor="black", highlightthickness=1, width=16, height=2)
-label.pack()
+label.pack(padx=5,pady=10)
 
 frame = Frame(window)
-frame.pack()
+frame.pack(pady=10)
 
 button1 = Button(frame, text=1, height=2, width=4, font=16, command=lambda: button_press(1))
 button1.grid(row=2, column=0, padx=1, pady=1)
