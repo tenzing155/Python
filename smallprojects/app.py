@@ -39,7 +39,7 @@ questions = [
 def function(questions):
     score = 0
     for question in questions:
-        answer = input(question.question)
+        answer = input(question.prompt)
         if answer == question.answer:
             score += 1
     print(f"You got {score} out of {len(questions)} questions.")
