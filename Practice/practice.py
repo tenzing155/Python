@@ -195,13 +195,13 @@
 #     print("Incorrect Pin.")
 
 
-#WAP to create a bus ticketing system.
-# Kathmandu - Pokhara - Rs1200
-# Dharan - Chitwan - Rs 2600
-# Ithari - Birgunj - Rs.2500
-# Tourist - extra -120
-# Single - same price
-# couple - 2200, 2300, 2200
+# # WAP to create a bus ticketing system.
+# # Kathmandu - Pokhara - Rs1200
+# # Dharan - Chitwan - Rs 2600
+# # Ithari - Birgunj - Rs.2500
+# # Tourist - extra -120
+# # Single - same price
+# # couple - 2200, 2300, 2200
 
 # print("============ BUS TICKETING SYSTEM =============")
 # print("- Destination -")
@@ -296,10 +296,10 @@
 #     print("Please enter correct option.")
 
 
-#Food order system
-# 18 less - 10% dis
-#stop - execute
-#all total - stop
+# # Food order system
+# # 18 less - 10% dis
+# # stop - execute
+# # all total - stop
 
 # print("===============FOOD ORDERING SYSTEM===============")
 # print("Menu: ")
