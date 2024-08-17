@@ -1,3 +1,4 @@
+#same method but method is override of its parent class
 class Animal():
     def eat(self):
         print("Animal is eating")

@@ -1,3 +1,6 @@
+# class are blue print of object
+# object are instance of class
+
 # class Student:
 #     name = "Tenzing"
 #     age = 21
@@ -10,6 +13,19 @@
 # print(student.name)
 # print(student.age)
 # student.address("kapan")
+
+# class Student:
+#     def __init__(self,name,age,address):
+#         self.name = name
+#         self.age = age
+#         self.address = address
+        
+
+#     def info(self):
+#         print(f"My name is {self.name}, age is {self.age} and address is {self.address}")
+
+# std = Student("Tenzing",21,"kapan")
+# std.info()
 
 
 # class Employee:

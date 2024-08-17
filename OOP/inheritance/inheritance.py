@@ -1,3 +1,6 @@
+#To inherit behaviour of one parent class to another child class
+#To inherit attributes and methods of parent class by child class
+
 # class Animal:
 #     def __init__(self):
 #         self.eyes = 2
@@ -67,3 +70,18 @@
 # print(xiaomi.get_price())       
 # print(xiaomi.get_quantity())    
 
+
+class Mobile:
+    def __init__(self, mobile_name, mobile_price, quantity):
+        self.name = mobile_name
+        self.price = mobile_price
+        self.quantity = quantity
+    
+class Samsung(Mobile):
+    def __init__(self,mobile_name,mobile_price,quantity):
+        super().__init__(mobile_name,mobile_price,quantity)
+
+obj = Samsung("Samsung",50000,2)
+print(obj.name)
+print(obj.price)
+print(obj.quantity)
