@@ -15,11 +15,10 @@
 # student.address("kapan")
 
 # class Student:
-#     def __init__(self,name,age,address):
-#         self.name = name
-#         self.age = age
-#         self.address = address
-        
+    # def __init__(self,name,age,address):
+    #     self.name = name
+    #     self.age = age
+    #     self.address = address
 
 #     def info(self):
 #         print(f"My name is {self.name}, age is {self.age} and address is {self.address}")

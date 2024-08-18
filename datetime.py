@@ -1,6 +1,6 @@
 # import math
 
-# print(dir(math))
+# type: ignore # print(dir(math))
 # print(math.sqrt(16))
 # print(math.ceil(0.9))
 # print(math.pi)
