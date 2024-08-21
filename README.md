@@ -1,4 +1,4 @@
-# Python 4pm
+# Python 
 * Python tutorial
 1. Practice
 2. if/else
