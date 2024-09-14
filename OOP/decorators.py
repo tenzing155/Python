@@ -1,4 +1,4 @@
-#decorators: modify the behavior of functions or methods, @ symbol.
+# decorators: modify the behavior of functions or methods, @ symbol.
 # class Student:
 
 #     @staticmethod #self is removed and can be accessed directly form class
@@ -9,7 +9,7 @@
 
 # class Student:
 
-#     @classmethod #self remove cls 
+#     @classmethod #self remove, add cls 
 #     def info(cls):
 #         print("I am a student")
 

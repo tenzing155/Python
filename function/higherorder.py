@@ -51,3 +51,42 @@
 # numbers = [2,3,4,6,8,9,7]
 # odd_num = list(filter(odd,numbers))
 # print(odd_num)
+
+
+#regex
+# import re
+
+#Return a list containing every occurrence of "ai":
+
+# txt = "The rain in Spain"
+# x = re.findall("ai", txt)
+# print(x)
+
+
+# import re
+
+# txt = "The rain in Spain and Portugal"
+
+#Check if "Portugal" is in the string:
+
+# x = re.findall("Portugal", txt)
+# print(x)
+
+# if (x):
+#   print("Yes, there is at least one match!")
+# else:
+#   print("No match")
+
+
+# import re
+
+# name = 'ramf'
+# patterns = "^[a-zA-Z0-9](4,)$"
+
+
+# if re.match(patterns,name):
+#     print("Valid Password")
+# else:
+#     print("Invalid Password")
+
+

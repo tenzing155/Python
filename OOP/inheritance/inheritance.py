@@ -71,17 +71,21 @@
 # print(xiaomi.get_quantity())    
 
 
-class Mobile:
-    def __init__(self, mobile_name, mobile_price, quantity):
-        self.name = mobile_name
-        self.price = mobile_price
-        self.quantity = quantity
+# class Mobile:
+#     def __init__(self, mobile_name, mobile_price, quantity):
+#         self.name = mobile_name
+#         self.price = mobile_price
+#         self.quantity = quantity
     
-class Samsung(Mobile):
-    def __init__(self,mobile_name,mobile_price,quantity):
-        super().__init__(mobile_name,mobile_price,quantity)
+# class Samsung(Mobile):
+#     def __init__(self,mobile_name,mobile_price,quantity):
+#         super().__init__(mobile_name,mobile_price,quantity)
 
-obj = Samsung("Samsung",50000,2)
-print(obj.name)
-print(obj.price)
-print(obj.quantity)
+# obj = Samsung("Samsung",50000,2)
+# print(obj.name)
+# print(obj.price)
+# print(obj.quantity)
+
+
+
+
