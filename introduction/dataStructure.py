@@ -13,7 +13,7 @@
 # print(data)
 
 # data=['ram','sita']
-# data.index('ram')
+# print(data.index('ram'))
 # print(len(data))
 # print(data)
 

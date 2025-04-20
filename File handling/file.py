@@ -3,7 +3,7 @@
 # w r a
 
 #reading file
-# f = open("file name", "r")
+# f = open("file name", "r")    
 # text = f.read()
 # print(text)
 

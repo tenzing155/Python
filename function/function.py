@@ -147,7 +147,7 @@
 # main()
 
 
-#*args
+# *args
 # def add(*args):
 #     sum = 0
 #     for i in args:
@@ -217,7 +217,7 @@
 
 # total(10,3,sub)
 
-#map function each iterable item function used 
+# map function each iterable item function used 
 # data = [10,20,30,40,50]
 # def add_num(n):
 #     return n + 5
@@ -266,7 +266,7 @@
 # sub = lambda x,y : x - y
 # print(sub(5,3))
 
-#factorial
+# factorial
 # def factorial(n):
 #     if n == 1:
 #         return 1

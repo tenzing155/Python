@@ -14,15 +14,15 @@
 #     {'name':'laxmi', 'gender':'female', 'status':False},
 #     {'name':'gopal', 'gender' :'male', 'status':True},  
 # ]
-#total_users
-#total_active_user
-#total_inactive_user
-#total_male
-#total_female
-#total_active_male
-#total_active_female
-#total_inactive_male
-#total_inactive_female
+# total_users
+# total_active_user
+# total_inactive_user
+# total_male
+# total_female
+# total_active_male
+# total_active_female
+# total_inactive_male
+# total_inactive_female
 
 
 # total_users = len(students)
@@ -66,7 +66,7 @@
 # print("Total active female: ",total_active_female)
 # print("Total inactive male: ",total_inactive_male)
 # print("Total inactive female: ",total_inactive_female)
-
+ 
 
 #list comprehension
 # num = [x for x in range(10) if x % 2 != 0]
